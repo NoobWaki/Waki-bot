@@ -40,4 +40,4 @@ client.on('channelCreate', channel => {
 })
 humanizeDuration = require('humanize-duration')
 
-client.login(process.env.TOKEN);
+client.login(process.env.token);
